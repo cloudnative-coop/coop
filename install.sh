@@ -267,7 +267,7 @@ main() {
 	CACHE_DIR=$(echo_cache_dir)
 	STANDALONE_INSTALL_PREFIX=${STANDALONE_INSTALL_PREFIX:-/usr/local}
 	TERRAFORM_INSTALL_PREFIX=${TERRAFORM_INSTALL_PREFIX:-/usr/local}
-	STANDALONE_BINARY_NAME=${STANDALONE_BINARY_NAME:-coder}
+	STANDALONE_BINARY_NAME=${STANDALONE_BINARY_NAME:-coop}
 	VERSION=${VERSION:-$(echo_latest_version)}
 	# These can be overridden for testing but shouldn't normally be used as it can
 	# result in a broken coder.
